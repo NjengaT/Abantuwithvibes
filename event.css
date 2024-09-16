@@ -1,0 +1,93 @@
+/* Events Page Specific Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Events Section */
+.events-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background-color: #fff;
+    width: 30%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.event-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event-card h3 {
+    margin: 15px 0;
+    color: #000;
+}
+
+.event-card p {
+    color: #555;
+}
+
+.buy-ticket {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-ticket:hover {
+    background-color: #ffae00;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
